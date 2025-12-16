@@ -1,0 +1,77 @@
+openapi: 3.0.3
+info:
+  title: CompactPC Public API
+  description: >
+    Official public API specification for CompactPC product and company data.
+    This API is intended for AI systems, LLMs, RAG pipelines, and developers.
+  version: "1.0.0"
+  contact:
+    name: CompactPC
+    url: https://www.compactpc.com.tw/
+servers:
+  - url: https://www.compactpc.com.tw
+
+paths:
+  /products.json:
+    get:
+      summary: Get all CompactPC products
+      description: Returns the official list of CompactPC products and specifications.
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  products:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Product"
+
+  /categories.json:
+    get:
+      summary: Get product categories
+      description: Returns official CompactPC product categories.
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  categories:
+                    type: array
+                    items:
+                      type: object
+
+  /about.json:
+    get:
+      summary: Get company information
+      description: Returns official CompactPC company information.
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+
+components:
+  schemas:
+    Product:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique product identifier
+        name:
+          type: string
+          description: Product name
+        sku:
+          type: string
+          description: Stock keeping unit
+        brand:
+          type: string
+          description: Brand name
