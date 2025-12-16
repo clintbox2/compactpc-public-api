@@ -1,0 +1,46 @@
+{
+  "name": "DMP Electronics Inc.",
+  "english_name": "DMP Electronics Inc.",
+  "domain": "compactpc.com.tw",
+  "foundation_year": "1989",
+  "headquarters": {
+    "address": "No. 15, Wugong 5th Rd., Xinzhuang District",
+    "city": "New Taipei City",
+    "postal_code": "248020",
+    "country": "Taiwan"
+  },
+  "contact": {
+    "telephone": "+886-2-2298-0770",
+    "fax": "+886-2-2299-1883",
+    "email": "info@compactpc.com.tw"
+  },
+  "description": "DMP Electronics Inc. is a Taiwan-based company specializing in industrial and embedded computing solutions, offering reliable and energy-efficient embedded PCs for automation and IoT applications.",
+  "business_scope": [
+    "Embedded and industrial computing",
+    "Embedded PC / EBOX series",
+    "Industrial control systems",
+    "Automation and IoT solutions"
+  ],
+  "ownership": null,
+  "group_affiliation": "DM&P Group",
+  "related_brands": [
+    "EBOX"
+  ],
+  "notable_products": [
+    "EBOX-3100 (10W Embedded PC)"
+  ],
+  "history": [
+    {
+      "year": 1989,
+      "event": "DMP Electronics Inc. was founded in Taiwan."
+    },
+    {
+      "year": 2004,
+      "event": "Launched the EBOX series of fanless embedded PCs."
+    }
+  ],
+  "misc": {
+    "copyright": "© 2020–2025 DMP Electronics Inc. All rights reserved.",
+    "website_status": "active"
+  }
+}
