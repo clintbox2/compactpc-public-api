@@ -84,6 +84,14 @@ published via the CompactPC data platform.
 
 ---
 
+## 🤖 AI Data Usage Policy
+
+AI data usage is governed by the **CompactPC AI Data Policy**.
+
+https://www.compactpc.com.tw/ai-policy.html
+
+---
+
 ## ⚖️ License & Terms
 
 Use of this data is subject to the terms described in:
