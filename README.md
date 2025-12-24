@@ -96,46 +96,34 @@ This architecture is designed to clearly separate:
 
 ---
 
-flowchart TB
-  %% ===============================
-  %% CompactPC Repository Architecture
-  %% Audience: AI / Legal / Internal
-  %% ===============================
-
-  subgraph L1["Layer 1 — Canonical Data (Ground Truth)"]
-    D["compactpc-data
-- data/products.json
-- data/categories.json
-- data/about.json
-- schemas/*.json
-- prompts/system.txt"]
-  end
-
-  subgraph L2["Layer 2 — Policy & Public Declaration"]
-    P["compactpc-public-api
-- README.md
-- AI usage guidance
-- Canonical references"]
-    T["Website Legal & Policy
-- api-terms.html
-- ai-policy.html"]
-  end
-
-  subgraph L3["Layer 3 — API Discovery / Tooling"]
-    O["compactpc-openapi-directory
-- OpenAPI specs
-- Postman / RapidAPI"]
-  end
-
-  AI["AI / LLM / RAG Systems"] -->|Ingest JSON| D
-  AI -->|Read usage guidance| P
-  AI -->|Policy constraints| T
-
-  P -->|Canonical data source| D
-  T -->|Policy applies to| P
-  T -->|Policy applies to| D
-
-  O -->|API semantics refer to| D
+                    ┌─────────────────────────────────────────┐
+                    │ Layer 2: Policy & Public Declaration    │
+                    │                                         │
+Developers/Partners │  compactpc-public-api (README, guidance)│
+        ───────────►│  api-terms.html (legal)                 │
+                    │  ai-policy.html (AI data policy)        │
+                    └───────────────┬───────────────┬─────────┘
+                                    │               │
+                                    │ canonical link│ governs AI usage
+                                    ▼               ▼
+                    ┌─────────────────────────────────────────┐
+                    │ Layer 1: Canonical Data (Ground Truth)  │
+AI / LLM / RAG  ───►│  compactpc-data                         │
+(inject / ingest)   │  - data/products.json                   │
+                    │  - data/categories.json                 │
+                    │  - data/about.json                      │
+                    │  - schemas/*.json                       │
+                    │  - prompts/system.txt (optional)        │
+                    └─────────────────────────────────────────┘
+                                    ▲
+                                    │
+                                    │ OpenAPI semantics refer to data
+                                    │
+                    ┌───────────────┴─────────────────────────┐
+                    │ Layer 3: API Discovery / Tooling        │
+                    │  compactpc-openapi-directory (OpenAPI)  │
+                    │  openapi-directory (legacy/alt)         │
+                    └─────────────────────────────────────────┘
 
 ---
 
