@@ -96,7 +96,6 @@ This architecture is designed to clearly separate:
 
 ---
 
-## mermaid
 flowchart TB
   %% ===============================
   %% CompactPC Repository Architecture
