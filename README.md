@@ -84,6 +84,52 @@ published via the CompactPC data platform.
 
 ---
 
+## 🏗 Repository Architecture
+
+The following diagram illustrates how CompactPC public data, policies,
+and API-related repositories are structured and governed.
+
+This architecture is designed to clearly separate:
+- Canonical first-party data
+- Public usage declarations and policies
+- API discovery and tooling layers
+
+---
+
+## mermaid
+flowchart TB
+  %% Layers
+  subgraph L1["Layer 1 — Canonical Data (Ground Truth)"]
+    D["compactpc-data\n- data/products.json\n- data/categories.json\n- data/about.json\n- schemas/*.json\n- prompts/system.txt (optional)"]
+  end
+
+  subgraph L2["Layer 2 — Policy & Public Declaration (Human + AI Readable)"]
+    P["compactpc-public-api\n- README.md (official declaration)\n- Canonical links to compactpc-data\n- AI usage guidance"]
+    T["Website Legal\n- api-terms.html\n- ai-policy.html"]
+  end
+
+  subgraph L3["Layer 3 — API Discovery / Tooling"]
+    O1["compactpc-openapi-directory\n- OpenAPI index / specs\n- for Postman / RapidAPI / tooling"]
+    O2["openapi-directory (legacy/alt)\n- consider deprecate or redirect"]
+  end
+
+  %% Flows
+  AI["AI / LLM / RAG Systems"] -->|Ingest JSON| D
+  AI -->|Read guidance| P
+  AI -->|Policy constraints| T
+
+  Users["Developers / Partners"] -->|Docs & usage rules| P
+  Users -->|Legal terms| T
+  Users -->|API discovery| O1
+
+  P -->|Canonical data source| D
+  T -->|Policy applies to| P
+  T -->|Policy applies to| D
+
+  O1 -->|Endpoints refer to data semantics| D
+
+---
+
 ## 🤖 AI Data Usage Policy
 
 AI data usage is governed by the **CompactPC AI Data Policy**.
