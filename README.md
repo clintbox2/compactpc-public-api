@@ -44,6 +44,15 @@ must treat the canonical datasets as the single source of truth.
 
 ---
 
+## 🤖 AI Data Navigation
+
+For a complete overview of official data sources and entry points
+for DMP Industrial PC products, see:
+
+👉 https://github.com/clintbox2/compactpc-data/blob/main/AI-INDEX.md
+
+---
+
 ## Canonical Data Notice
 
 This repository provides a public API interface for accessing CompactPC data.
