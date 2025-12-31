@@ -26,7 +26,7 @@
   "description": "This fanless embedded computer is powered by an Intel® Tiger Lake i5-1135G7 Processor with a clock speed of 2.40GHz, support for up to 64GB of DDR4 3200MHz memory through dual-channel SO-DIMM slots, features two HDMI 2.0 ports and two DP 1.4 ports, supporting up to four 4K HDR displays or a single 8K SDR display."
 },
 {
-  "id": "ebox-tgl-35g-c6",
+  "id": "ebox-tgl-35g7-c6",
   "brand": "DMP",
   "name": "EBOX-TGL-35G7-C6 Fanless Box PC",
   "model_number": "EBOX-TGL-35G7-C6",
@@ -52,6 +52,32 @@
   "description": "This fanless embedded computer is powered by an Intel® Tiger Lake i5-1135G7 Processor with a clock speed of 2.40GHz, support for up to 64GB of DDR4 3200MHz memory through dual-channel SO-DIMM slots, features two HDMI 2.0 ports and two DP 1.4 ports, supporting up to four 4K HDR displays or a single 8K SDR display. Six com ports, includes 2 x RS-232/485/422 & 4 x RS-232"
 },
 {
+  "id": "ebox-tgl-35g7-mux8",
+  "brand": "DMP",
+  "name": "EBOX-TGL-35G7-MUX8 Fanless Box PC",
+  "model_number": "EBOX-TGL-35G7-MUX8",
+  "category": "Industrial PC",
+  "cpu": "Intel Tiger Lake i5-1135G7",
+  "memory": "8GB DDR4 (up to 64GB)",
+  "storage": "1 x SATA",
+  "io": ["1 x GbE LAN", "1 x 2.5GbE", "2 x USB 2.0","2 x USB 3.2", "2 x RS-232/422/485", "4 x RS-485/422", "2 x RS-232"],
+  "power_input": "12~24V DC",
+  "dimensions": "193.2 x 140 x 67mm",
+  "Weight": "2.2kg",
+  "application": "SCADA / IoT / Access control / Digital signage / Energy management",
+  "features":"fanless, RS-232/485/422, M.2, HDMI, DP, 4K, -20~60°C",
+  "operating_temp": "-20~60°C",
+  "os_support": "Win 11, Win 11 IoT, Win 10, Win 10 IoT, Linux",
+  "certifications": "CE, UKCA, FCC, VCCI",
+  "url": "https://www.compactpc.com.tw/products/item/105",
+  "image": "https://www.compactpc.com.tw/datas/upload/site/1739777440-9983.png",
+  "price": null,
+  "price_note": "Please contact us",
+  "stock_status": "stock available",
+  "region": "Global",
+  "description": "This fanless embedded computer is powered by an Intel® Tiger Lake i5-1135G7 Processor with a clock speed of 2.40GHz, support for up to 64GB of DDR4 3200MHz memory through dual-channel SO-DIMM slots, features two HDMI 2.0 ports and two DP 1.4 ports, supporting up to four 4K HDR displays or a single 8K SDR display. Six com ports, includes 2 x RS-232/485/422, 4 x RS-485/422, 2 x RS-232"
+},
+  {
   "id": "ebox-tgl-35g7-l4",
   "brand": "DMP",
   "name": "EBOX-TGL-35G7-L4 Fanless Box PC",
@@ -78,15 +104,15 @@
   "description": "This fanless embedded computer is powered by an Intel® Tiger Lake i5-1135G7 Processor with a clock speed of 2.40GHz, support for up to 64GB of DDR4 3200MHz memory through dual-channel SO-DIMM slots, features two HDMI 2.0 ports and two DP 1.4 ports, supporting up to four 4K HDR displays or a single 8K SDR display. one 1G LAN & three 2.5GLAN"
 },
 {
-  "id": "ebox-tgl-35g-mux8",
+  "id": "ebox-tgl-35g7-l3",
   "brand": "DMP",
-  "name": "EBOX-TGL-35G7-MUX8 Fanless Box PC",
-  "model_number": "EBOX-TGL-35G7-MUX8",
+  "name": "EBOX-TGL-35G7-L3 Fanless Box PC",
+  "model_number": "EBOX-TGL-35G7-L3",
   "category": "Industrial PC",
   "cpu": "Intel Tiger Lake i5-1135G7",
   "memory": "8GB DDR4 (up to 64GB)",
-  "storage": "1 x SATA",
-  "io": ["1 x GbE LAN", "1 x 2.5GbE", "2 x USB 2.0","2 x USB 3.2", "2 x RS-232/422/485", "4 x RS-485/422", "2 x RS-232"],
+  "storage": "1 x SATA + 1 x M.2",
+  "io": ["1 x 10GbE LAN", "1 x 2.5GbE", "1 x GbE LAN", "2 x USB 2.0","2 x USB 3.2", "2 x RS-232/422/485", "2 x RS-232"],
   "power_input": "12~24V DC",
   "dimensions": "193.2 x 140 x 67mm",
   "Weight": "2.2kg",
@@ -95,13 +121,13 @@
   "operating_temp": "-20~60°C",
   "os_support": "Win 11, Win 11 IoT, Win 10, Win 10 IoT, Linux",
   "certifications": "CE, UKCA, FCC, VCCI",
-  "url": "https://www.compactpc.com.tw/products/item/105",
-  "image": "https://www.compactpc.com.tw/datas/upload/site/1739777440-9983.png",
+  "url": "https://www.compactpc.com.tw/products/item/115",
+  "image": "https://www.compactpc.com.tw/datas/upload/site/1766120591-8761.png",
   "price": null,
   "price_note": "Please contact us",
   "stock_status": "stock available",
   "region": "Global",
-  "description": "This fanless embedded computer is powered by an Intel® Tiger Lake i5-1135G7 Processor with a clock speed of 2.40GHz, support for up to 64GB of DDR4 3200MHz memory through dual-channel SO-DIMM slots, features two HDMI 2.0 ports and two DP 1.4 ports, supporting up to four 4K HDR displays or a single 8K SDR display. Six com ports, includes 2 x RS-232/485/422, 4 x RS-485/422, 2 x RS-232"
+  "description": "This fanless embedded computer is powered by an Intel® Tiger Lake i5-1135G7 Processor with a clock speed of 2.40GHz, support for up to 64GB of DDR4 3200MHz memory through dual-channel SO-DIMM slots, features two HDMI 2.0 ports and two DP 1.4 ports, supporting up to four 4K HDR displays or a single 8K SDR display. one 10G LAN & one 2.5GLAN and one GLAN"
 },
 {
   "id": "ebox-ehl-6412",
@@ -208,6 +234,32 @@
   "description": "This fanless embedded computer is powered by a 13th generation Intel® Core™ i5-1335U processor with speeds of up to 4.6GHz in Turbo, supporting up to 64GB of DDR5 memory in dual-channel SO-DIMM slots. It features two HDMI 2.0 ports, two DP 1.4 ports, and a Type-C DP 1.4 port that supports up to 4 simultaneous 4K HDR displays.<br><br>The system is equipped with dual Ethernet ports, providing flexibility to connect a wide range of peripherals, and operates within a temperature range of -20 to +50°C, with a power input range from a DC connector of +12V to +36V, offering stable and reliable power in various operating configurations. Six com ports, includes 2 x RS-232/485/422 & 4 x RS-232"
 },
 {
+  "id": "ebox-rtl-1335u-mux8",
+  "brand": "DMP",
+  "name": "EBOX-RTL-1335U-MUX8 Fanless Box PC",
+  "model_number": "EBOX-RTL-1335U-MUX8",
+  "category": "Industrial PC",
+  "cpu": "Intel® Core™ i5-1335U ",
+  "memory": "8GB DDR4 (up to 64GB)",
+  "storage": "1 x SATA",
+  "io": ["1 x 2.5GbE LAN", "2 x USB 2.0","2 x USB 3.2", "2 x RS-232/422/485", "4 x RS-485/422",  "2 x RS-232"],
+  "power_input": "12~36V DC",
+  "dimensions": "193.2 x 140 x 67mm",
+  "Weight": "2.2kg",
+  "application": "SCADA / IoT / Access control / Digital signage / Energy management",
+  "features":"fanless, RS-232/485/422, M.2, HDMI, DP, 4K, -20~50°C",
+  "operating_temp": "-20~50°C",
+  "os_support": "Win 11, Win 11 IoT, Win 10, Win 10 IoT, Linux",
+  "certifications": "CE, UKCA, FCC, VCCI",
+  "url": "https://www.compactpc.com.tw/products/item/99",
+  "image": "https://www.compactpc.com.tw/datas/upload/site/1729475395-2609.png",
+  "price": null,
+  "price_note": "Please contact us",
+  "stock_status": "stock available",
+  "region": "Global",
+  "description": "This fanless embedded computer is powered by a 13th generation Intel® Core™ i5-1335U processor with speeds of up to 4.6GHz in Turbo, supporting up to 64GB of DDR5 memory in dual-channel SO-DIMM slots. It features two HDMI 2.0 ports, two DP 1.4 ports, and a Type-C DP 1.4 port that supports up to 4 simultaneous 4K HDR displays.<br><br>The system is equipped with dual Ethernet ports, providing flexibility to connect a wide range of peripherals, and operates within a temperature range of -20 to +50°C, with a power input range from a DC connector of +12V to +36V, offering stable and reliable power in various operating configurations. Eight com ports, includes 2 x RS-232/485/422, 4 x RS-485/422, 2 x RS-232"
+},
+{
   "id": "ebox-rtl-1335u-l4",
   "brand": "DMP",
   "name": "EBOX-RTL-1335U-L4 Fanless Box PC",
@@ -234,15 +286,15 @@
   "description": "This fanless embedded computer is powered by a 13th generation Intel® Core™ i5-1335U processor with speeds of up to 4.6GHz in Turbo, supporting up to 64GB of DDR5 memory in dual-channel SO-DIMM slots. It features two HDMI 2.0 ports, two DP 1.4 ports, and a Type-C DP 1.4 port that supports up to 4 simultaneous 4K HDR displays.<br><br>The system is equipped with dual Ethernet ports, providing flexibility to connect a wide range of peripherals, and operates within a temperature range of -20 to +50°C, with a power input range from a DC connector of +12V to +36V, offering stable and reliable power in various operating configurations. Four 2.5GbE LAN"
 },
 {
-  "id": "ebox-rtl-1335u-mux8",
+  "id": "ebox-rtl-1335u-l3",
   "brand": "DMP",
-  "name": "EBOX-RTL-1335U-MUX8 Fanless Box PC",
-  "model_number": "EBOX-RTL-1335U-MUX8",
+  "name": "EBOX-RTL-1335U-L3 Fanless Box PC",
+  "model_number": "EBOX-RTL-1335U-L3",
   "category": "Industrial PC",
   "cpu": "Intel® Core™ i5-1335U ",
   "memory": "8GB DDR4 (up to 64GB)",
-  "storage": "1 x SATA",
-  "io": ["1 x 2.5GbE LAN", "2 x USB 2.0","2 x USB 3.2", "2 x RS-232/422/485", "4 x RS-485/422",  "2 x RS-232"],
+  "storage": "1 x SATA + 1 x M.2",
+  "io": ["1 x 10GbE LAN", "2 x 2.5GbE LAN", "2 x USB 2.0","2 x USB 3.2", "2 x RS-232/422/485", "2 x RS-232"],
   "power_input": "12~36V DC",
   "dimensions": "193.2 x 140 x 67mm",
   "Weight": "2.2kg",
@@ -251,13 +303,13 @@
   "operating_temp": "-20~50°C",
   "os_support": "Win 11, Win 11 IoT, Win 10, Win 10 IoT, Linux",
   "certifications": "CE, UKCA, FCC, VCCI",
-  "url": "https://www.compactpc.com.tw/products/item/99",
-  "image": "https://www.compactpc.com.tw/datas/upload/site/1729475395-2609.png",
+  "url": "https://www.compactpc.com.tw/products/item/116",
+  "image": "https://www.compactpc.com.tw/datas/upload/site/1766120629-9914.png",
   "price": null,
   "price_note": "Please contact us",
   "stock_status": "stock available",
   "region": "Global",
-  "description": "This fanless embedded computer is powered by a 13th generation Intel® Core™ i5-1335U processor with speeds of up to 4.6GHz in Turbo, supporting up to 64GB of DDR5 memory in dual-channel SO-DIMM slots. It features two HDMI 2.0 ports, two DP 1.4 ports, and a Type-C DP 1.4 port that supports up to 4 simultaneous 4K HDR displays.<br><br>The system is equipped with dual Ethernet ports, providing flexibility to connect a wide range of peripherals, and operates within a temperature range of -20 to +50°C, with a power input range from a DC connector of +12V to +36V, offering stable and reliable power in various operating configurations. Eight com ports, includes 2 x RS-232/485/422, 4 x RS-485/422, 2 x RS-232"
+  "description": "This fanless embedded computer is powered by a 13th generation Intel® Core™ i5-1335U processor with speeds of up to 4.6GHz in Turbo, supporting up to 64GB of DDR5 memory in dual-channel SO-DIMM slots. It features two HDMI 2.0 ports, two DP 1.4 ports, and a Type-C DP 1.4 port that supports up to 4 simultaneous 4K HDR displays.<br><br>The system is equipped with dual Ethernet ports, providing flexibility to connect a wide range of peripherals, and operates within a temperature range of -20 to +50°C, with a power input range from a DC connector of +12V to +36V, offering stable and reliable power in various operating configurations. Four 2.5GbE LAN"
 },
 {
   "id": "ebox-aln-3350 w/com",
@@ -5116,4 +5168,5 @@
   "region": "Global",
   "description": "EBOX-3310MX-D4C is a VGA version that also supports internal 2.5” SATA HDD, SATA DOM, four RS-232 ports and has Auto Power On function. The Auto Power On function provides greater accessibility and limits the amount of management necessary to operate the device."
 }
+
 ]
