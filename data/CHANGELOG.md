@@ -19,8 +19,8 @@ officially published product data updates.
 
 ### Added
 - Added new product models:
-  - <NEW-PRODUCT-MODEL-1>
-  - <NEW-PRODUCT-MODEL-2>
+  - EBOX-TGL-35G7-L3
+  - EBOX-RTL-1335U-L3
 
 ### Notes
 - Canonical data source:
