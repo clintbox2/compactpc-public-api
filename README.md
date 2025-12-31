@@ -133,6 +133,18 @@ When this API is used by AI systems, LLMs, or automated agents:
 
 ---
 
+## Product Coverage
+
+This repository reflects the official public product datasets
+published by DMP Electronics Inc. via the CompactPC platform.
+
+Product models are updated periodically.
+For the latest authoritative product list, refer to:
+
+https://www.compactpc.com.tw/api/v1/products-feed.json
+
+---
+
 ## Related Repositories
 
 Canonical datasets:
@@ -150,7 +162,7 @@ https://www.compactpc.com.tw/api-terms.html
 
 ---
 
-Last updated: 2025-12-26
+Last updated: 2025-12-31
 
 © 2025 DMP Electronics Inc.
 CompactPC is the official data and API platform operated by
