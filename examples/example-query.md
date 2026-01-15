@@ -50,4 +50,4 @@ CompactPC public data into AI systems, LLMs, and applications.
 
 ---
 
-© 2025 CompactPC
+© 2026 DMP Electronics Inc.
