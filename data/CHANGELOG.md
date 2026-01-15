@@ -15,7 +15,7 @@ officially published product data updates.
 
 ---
 
-## 2025-12-31
+## 2026-01-12
 
 ### Added
 - Added new product models:
@@ -26,7 +26,6 @@ officially published product data updates.
 - Canonical data source:
   - `/data/products-feed.json`
 - Public API endpoints updated accordingly:
-  - `/api/v1/products-feed.json`
   - `/api/v1/products.json`
 
 ---
