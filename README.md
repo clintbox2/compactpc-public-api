@@ -141,7 +141,7 @@ published by DMP Electronics Inc. via the CompactPC platform.
 Product models are updated periodically.
 For the latest authoritative product list, refer to:
 
-https://www.compactpc.com.tw/api/v1/products-feed.json
+https://www.compactpc.com.tw/products-feed.json
 
 ---
 
@@ -162,8 +162,8 @@ https://www.compactpc.com.tw/api-terms.html
 
 ---
 
-Last updated: 2025-12-31
+Last updated: 2026-01-15
 
-© 2025 DMP Electronics Inc.
+© 2026 DMP Electronics Inc.
 CompactPC is the official data and API platform operated by
 DMP Electronics Inc.
