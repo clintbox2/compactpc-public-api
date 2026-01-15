@@ -2,7 +2,7 @@
 
 ⚠️ This dataset is a reference snapshot.
 The authoritative and up-to-date data is published at:
-https://www.compactpc.com.tw/api/v1/products-feed.json
+https://www.compactpc.com.tw/products-feed.json
 
 This `/data` directory contains the **official canonical datasets**
 for CompactPC and DMP Industrial PC products, published by
