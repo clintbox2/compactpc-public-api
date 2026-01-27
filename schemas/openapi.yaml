@@ -4,47 +4,62 @@ info:
   description: >
     Official public API specification for CompactPC product and company data.
     This API is intended for AI systems, LLMs, RAG pipelines, and developers.
+    Fully compliant with Universal Commerce Protocol (UCP).
   version: "1.0.0"
+  termsOfService: https://www.compactpc.com.tw/ai/ucp-spec.html
   contact:
     name: CompactPC
     url: https://www.compactpc.com.tw/
+    email: info@compactpc.com.tw
+  license:
+    name: CC BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+
 servers:
-  - url: https://www.compactpc.com.tw
+  - url: https://www.compactpc.com.tw/api/v1
+
+protocol:
+  name: UCP
+  full_name: Universal Commerce Protocol
+  version: "1.0"
+  spec_url: https://www.compactpc.com.tw/ai/ucp-spec.html
 
 paths:
   /products.json:
     get:
       summary: Get all CompactPC products
-      description: Returns the official list of CompactPC products and specifications.
+      description: Returns the full list of CompactPC products including specifications, images, categories, and metadata.
       responses:
         "200":
           description: Successful response
           content:
             application/json:
               schema:
-                type: object
-                properties:
-                  products:
-                    type: array
-                    items:
-                      $ref: "#/components/schemas/Product"
+                $ref: "#/components/schemas/ProductCollection"
 
   /categories.json:
     get:
       summary: Get product categories
-      description: Returns official CompactPC product categories.
+      description: Returns all official CompactPC product categories.
       responses:
         "200":
           description: Successful response
           content:
             application/json:
               schema:
-                type: object
-                properties:
-                  categories:
-                    type: array
-                    items:
-                      type: object
+                $ref: "#/components/schemas/CategoryCollection"
+
+  /index.json:
+    get:
+      summary: Get canonical API entry
+      description: Returns a JSON object listing all API resources, counts, and types compliant with UCP.
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Index"
 
   /about.json:
     get:
@@ -63,15 +78,81 @@ components:
     Product:
       type: object
       properties:
-        id:
-          type: string
-          description: Unique product identifier
-        name:
-          type: string
-          description: Product name
-        sku:
-          type: string
-          description: Stock keeping unit
-        brand:
-          type: string
-          description: Brand name
+        id: { type: string }
+        brand: { type: string }
+        name: { type: string }
+        model_number: { type: string }
+        category: { type: string }
+        cpu: { type: string }
+        memory: { type: string }
+        storage: { type: string }
+        io:
+          type: array
+          items: { type: string }
+        power_input: { type: string }
+        dimensions: { type: string }
+        weight: { type: string }
+        application: { type: string }
+        features: { type: string }
+        operating_temp: { type: string }
+        os_support: { type: string }
+        certifications: { type: string }
+        url: { type: string, format: uri }
+        image: { type: string, format: uri }
+        price:
+          type: [number, "null"]
+        price_note: { type: string }
+        stock_status: { type: string }
+        region: { type: string }
+        description: { type: string }
+      required: [id, name]
+
+    ProductCollection:
+      type: object
+      properties:
+        protocol:
+          type: object
+        provider:
+          type: object
+        license:
+          type: object
+        count:
+          type: integer
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/Product"
+
+    Category:
+      type: object
+      properties:
+        name: { type: string }
+        codeValue: { type: string }
+        url: { type: string, format: uri }
+        description: { type: string }
+
+    CategoryCollection:
+      type: object
+      properties:
+        protocol:
+          type: object
+        provider:
+          type: object
+        license:
+          type: object
+        count:
+          type: integer
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/Category"
+
+    Index:
+      type: object
+      properties:
+        protocol:
+          type: object
+        provider:
+          type: object
+        resources:
+          type: array
